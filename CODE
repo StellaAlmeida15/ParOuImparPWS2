@@ -16,7 +16,7 @@ programa {
     se (total % 2 == 0 e resultado == "par" ou "Par"){
       escreva("Parece que você ganhou! Parabéns!")
     }
-    se (total % 2 != 0 e resultado == "impar" ou "ímpar"){
+    se (total % 2 != 0 e resultado == "par" ou "par"){
       escreva("Deu ímpar. Que pena, você perdeu. XP ")
     }
      se (total % 2 != 0 e resultado == "impar" ou "ímpar"){
