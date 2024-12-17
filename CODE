@@ -1,0 +1,37 @@
+programa {
+  inclua biblioteca Util --> u
+  inteiro num
+  funcao inicio() {
+    inteiro numUser, total
+    cadeia resultado
+    escreva("Olá, Mundo! Esse é o meu terceiro exercício de Lógica da programação no PortugolWebstudio. \n Hojé é dia 17/12/2024 \n")
+    escreva("Vamos jogar par ou ímpar? Você irá digitar um número e eu irei sortear outro, vamos ver quem ganha!\n")
+    escreva("par ou ímpar? ")
+    leia(resultado)
+    escreva("\nDigite um número: ")
+    leia(numUser)
+    num = u.sorteia(1, 5)
+    escreva("Bem, eu sorteei o número ", num, "\n")
+    total = num + numUser
+    se (total % 2 == 0 e resultado == "par" ou "Par"){
+      escreva("Parece que você ganhou! Parabéns!")
+    }
+    se (total % 2 != 0 e resultado == "impar" ou "ímpar"){
+      escreva("Deu ímpar. Que pena, você perdeu. XP ")
+    }
+     se (total % 2 != 0 e resultado == "impar" ou "ímpar"){
+      escreva("Parece que você ganhou! Parabéns!")
+    }
+    se (total % 2 == 0 e resultado == "impar" ou "ímpar"){
+      escreva("Deu par. Que pena, você perdeu. XP")
+    }
+
+
+
+
+
+
+    
+    
+  }
+}
